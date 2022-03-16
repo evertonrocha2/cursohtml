@@ -1,0 +1,33 @@
+      a{
+      	color: darkred;
+      	text-decoration: none;
+      	font-size: 12px;
+      	font-family: ubuntu;
+      }
+      h1{
+      	font-family: ubuntu;
+      }
+      a{
+      	background-color: yellow;
+      	box-shadow: none;
+      	text-shadow: darkblue;
+        text-align: right;
+      }
+.link{
+	color: green;
+}
+h1{background-color: greenyellow;
+text-align: center;
+font-family: verveine;
+shape-outside: padding-box;
+shape-rendering: auto;
+background-image: url(https://i.pinimg.com/originals/72/1c/23/721c2348ad11f9cf1221cc1d5474c17c.png);
+color: white;
+}
+header{
+	background-color: greenyellow;
+	border-bottom: medium;
+	text-align: center;
+	column-fill: initial;
+	font-family: verveine;
+}

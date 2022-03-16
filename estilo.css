@@ -1,0 +1,33 @@
+      a{
+      	color: black;
+      	text-decoration: none;
+      	font-size: 12px;
+      	font-family: bebas;
+      }
+      h1{
+      	font-family: ubuntu;
+      }
+      a{
+        background-color: greenyellow;
+      	box-shadow: none;
+
+      }
+.link{
+				color: black;
+				font-size: 45px;
+				column-rule-color: red;
+				display: flex: center;
+}
+h1{			
+				background-color: greenyellow;
+				text-align: center;
+				font-family: verveine;
+				color: black;
+}
+header{
+				background-color: greenyellow;
+				border-bottom: medium;
+				text-align: center;
+				column-fill: initial;
+				font-family: verveine;
+}
