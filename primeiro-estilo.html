@@ -3,14 +3,25 @@
 <html>
 <head>
       <link rel="stylesheet" type="text/css" href="estilo.css"/>
-<title>Título da página</title>
-<meta charset="utf-8" />
+      <title>Trabalhando com formulários</title>
+      <meta charset="utf-8" />
 </head>
 
 <body> 
-<header>EVERTON</header>
-<h1>Meu primeiro estilo CSS</h1>
-<p><a href="listas.html" class="link" target="_blank" >link de exemplo</a></p>
+      <form action="" method="get">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" placeholder="Digite seu nome" name="nome" />
+            <label for="opção">Você gostou do site?</label>
+            <input id="opção" type="radio" name="opção" value="sim" checked="checked"/>Sim
+            <input id="opção" type="radio" name="opção" value="não"/>Não
+            <label for="linguagem">Você quer aprender mais sobre?</label>
+            <input id="linguagem" type="checkbox" name="html">HTML
+            <input id="linguagem" type="checkbox" name="css">CSS
+            <textarea></textarea>
+            <input type="submit" value="Enviar"/>
+          
+            
+      </form>
 </body>
 
 

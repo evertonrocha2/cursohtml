@@ -1,33 +1,71 @@
-      a{
-      	color: black;
-      	text-decoration: none;
-      	font-size: 12px;
-      	font-family: bebas;
-      }
-      h1{
-      	font-family: ubuntu;
-      }
-      a{
-        background-color: greenyellow;
-      	box-shadow: none;
+body{
+font-family: Helvetica, sans-serif;
+}
+a:link, a:visited{
+	color: #ff6600;
+	text-decoration: none;
 
-      }
-.link{
-				color: black;
-				font-size: 45px;
-				column-rule-color: red;
-				display: flex: center;
 }
-h1{			
-				background-color: greenyellow;
-				text-align: center;
-				font-family: verveine;
-				color: black;
+a:hover{
+	text-decoration: underline;
 }
-header{
-				background-color: greenyellow;
-				border-bottom: medium;
-				text-align: center;
-				column-fill: initial;
-				font-family: verveine;
+#wrap{
+   width: 960px;
+   margin: auto;
+   background: #e3e3e3;
+   padding: 10px 20px;
+
+}
+header nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+header nav ul a{
+	font-size: 18px;
+}
+#content{
+	float: left;
+	background: red;
+	width: 660px;
+
+}
+#sidebar{
+background: blue;
+	float: right;
+	width: 300px;
+}
+footer{
+	clear: both;
+}
+#sidebar ul{
+	list-style: none;
+}
+label, input[type=submit], input[type=text], textarea{
+
+	display: block;
+}
+textarea{
+	width: 300px;
+	height: 80px;
+}
+input[type=submit]{
+	background: #333333;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 20px;
+	border: 0;
+
+}
+input[type=submit]:hover{
+	background: #ff6600;
+}
+input[type=submit]{
+	position: absolute;
+	border-radius: 50px;
+	
+
 }
