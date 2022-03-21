@@ -1,0 +1,12 @@
+h1{
+	color: #ff6600;
+	letter-spacing: 2px;
+	font-family: helvetica;
+	text-transform: uppercase;
+}
+p{
+	width: 650px;
+	font-size: 19px;
+	font-family: verdana;
+	text-indent: 30px;
+}
